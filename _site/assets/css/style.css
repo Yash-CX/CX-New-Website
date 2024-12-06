@@ -209,7 +209,7 @@ ul.social-links li a {
 	background-position: center top;
 	background-size: cover;
 }
-
+.home-hero .heading-lg { font-size:10vw }
 .home-hero .hero-short-info {
 	width: 30%;
 	margin-right: auto;
@@ -223,18 +223,18 @@ ul.social-links li a {
 
 /*services css start*/
 
-.services-area .services-bottom-block .services-tags {
+.services-area .services-bottom-item .services-tags {
 	margin: 0;
 	padding: 0;
 }
 
-.services-area .services-bottom-block ul.services-tags li {
+.services-area .services-bottom-item ul.services-tags li {
 	list-style-type: none;
 	padding-bottom: 10px;
 	position: relative;
 }
 
-.services-area .services-bottom-block ul.services-tags li::before {
+.services-area .services-bottom-item ul.services-tags li::before {
 	content: "";
 	width: 6px;
 	height: 6px;
@@ -248,7 +248,7 @@ ul.social-links li a {
 	transform: translateY(-50%);
 }
 
-.services-area .services-bottom-block ul.services-tags li a {
+.services-area .services-bottom-item ul.services-tags li a {
 	text-decoration: none;
 	font-family: 'TT Firs Neue Trl';
 	font-size: 20px;
@@ -266,7 +266,7 @@ ul.social-links li a {
 }
 
 .services-area .services-bottom-area .services-bottom-left .services-bottom-left-content ul.services-tags li {
-	width: 25%;
+	width: 30%;
 	flex-shrink: 0;
 	max-width: max-content;
 }
